@@ -3,6 +3,8 @@ using namespace std;
 
 int exe1(){
 
+    //Escreva um programa que solicita ao usuário que insira um número e imprime todos os números pares entre 1 e o número inserido.
+
     int n, i = 0, o=1;
 
     cout << "Digite um número: ";
@@ -21,6 +23,8 @@ int exe1(){
 
 int exe2(){
 
+    //Escreva um programa que calcula a soma dos dígitos de um número inteiro inserido pelo usuário.
+
     int n, i=1, soma;
 
     cout << "Digite um número: ";
@@ -38,6 +42,8 @@ int exe2(){
 }
 
 int exe3(){
+
+    //Escreva um programa que imprime a sequência de Fibonacci até o n-ésimo termo, onde o valor de n é inserido pelo usuário.
 
     int n, i=1, t1=0, t2=1, result;
 
