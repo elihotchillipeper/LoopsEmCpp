@@ -58,12 +58,13 @@ int exeFor3(){
     cout << "Digite um número de linhas: ";
     cin >> linhas;
 
-    for(int i = 1; i <= linhas; i++){
+    for(int i = 0; i <= linhas; i++){
         for(int j = 1; j<= i; j++){
-            cout << "*" <<std::endl;
+            cout << "*" ;
         }
+        cout << std::endl;
     }
-    cout << " " << std::endl;
+    
 
     return 0;
 }
